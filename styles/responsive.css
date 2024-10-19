@@ -1,0 +1,150 @@
+/* responsive media query */
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .max-width{
+        padding: 0 30px;
+    }
+    .header .logo a h2{
+        font-size: 25px;
+    }
+    .header .menu ul li a{
+        font-size: 17;
+        margin-left: 20px;
+    }
+    .hero-container h2{
+        font-size: 45px;
+    }
+    .hero-container p{
+        font-size: 15px;
+    }
+    .feture-content{
+        flex-direction: column;
+    }
+    .feture-left{
+        width: 100%;
+    }
+    .feture-right{
+        width: 100%;
+    }
+    .feture-left h2{
+        margin-top: 30px;
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .teams-container{
+        flex-direction: column-reverse;
+    }
+    .teams-left{
+        width: 100%;
+    }
+    .teams-right{
+        width: 80%;
+    }
+    .btn-experence {
+        top: -72px;
+        left: -75px;
+        padding: 25px 23px;
+        font-size: 30px;
+    }
+    .teams-left h1{
+        margin-top: 20px;
+    }
+    .teams-left h1{
+        font-size: 30px;
+    }
+    .teams-left p{
+        font-size: 17px;
+    }
+    .teams-card h3{
+        font-size: 20px;
+    }
+    .teams-card p{
+        font-size: 16px;
+    }
+    .teams-left h1::after{
+        top: 17px;
+        left: -14px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .max-width{
+        padding: 0 20px;
+    }
+    /* shared code */
+    .btn-primary {
+        padding: 10px 15px;
+        font-size: 15px;
+    }
+    .header .max-width{
+        flex-direction: column;
+    }
+    .header .logo a h2{
+        font-size: 25px;
+    }
+    .header .menu ul li a{
+        font-size: 15px;
+        margin: 8px 0 0 13px;
+        display: block;
+    }
+    .hero-container h2{
+        font-size: 30px;
+    }
+    .hero-container p{
+        font-size: 14px;
+    }
+    .feture-content{
+        flex-direction: column;
+        width: 100%;
+    }
+    .feture-img-container {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+    .feture-left{
+        width: 100%;
+    }
+    .feture-right{
+        width: 100%;
+    }
+    .feture-left h2{
+        font-size: 27px;
+        line-height: 35px;  
+        margin-top: 25px;
+    }
+    .feture-left p{
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .teams-container{
+        flex-direction: column-reverse;
+    }
+    .teams-left{
+        width: 100%;
+    }
+    .teams-right{
+        width: 100%;
+    }
+    .teams-left h1{
+        font-size: 27px;
+    }
+    .teams-left p{
+        font-size: 16px;
+    }
+    .teams-left h1::after{
+        top: 15px;
+        left: -10px;
+        width: 5px;
+    }
+    .teams-card{
+        padding: 15px 20px;
+    }
+    .btn-experence {
+        top: -74px;
+        left: -15px;
+        padding: 21px 16px;
+        font-size: 26px;
+    }
+}

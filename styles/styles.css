@@ -1,0 +1,221 @@
+/* google fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* shared styles */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Work Sans", sans-serif;
+    text-decoration: none;
+}
+.max-width{
+    max-width: 1300px;
+    padding: 0 90px;
+    margin: auto;
+}
+.primary-color{
+    color: #ff900e;
+}
+.dark-1{
+    color: rgb(114, 114, 114);
+}
+.dark-2{
+    color: rgb(19, 19, 19);
+}
+.btn-primary {
+    padding: 13px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    background: #ff900e;
+    color: #fff;
+    border-radius: 5px;
+    border: 2px solid #ff900e;
+    margin-top: 10px;
+    display: inline-block;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.btn-primary:hover{
+    background: #fff;
+    color: #ff900e;
+}
+.light{
+    font-weight: 500;
+}
+
+/* header styles */
+.header{
+    width: 100%;
+    padding: 20px 0;
+    background: rgba(255, 144, 14, 0.1);
+}
+.header .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header .logo a h2{
+    font-size: 32px;
+    font-weight: 700;
+    color: #131313;
+}
+.header .menu ul li{
+    display: inline-block;
+    list-style-type: none;
+}
+.header .menu ul li a{
+    position: relative;
+    font-size: 18px;
+    font-weight: 500;
+    color: #424242;
+    margin-left: 35px;
+    transition: all 0.3s ease;
+}
+.header .menu ul li a:hover{
+    color: #ff900e;
+}
+.header .menu ul li a::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 3px;
+    bottom: -5px;
+    background-color: #ff900e;
+    text-align: center;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+.header .menu ul li a:hover::after{
+    width: 100%;
+}
+/* nav style */
+
+nav{
+    padding: 100px 0;
+    background: rgba(255, 144, 14, 0.1);
+}
+.hero-container{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+.hero-container h2{
+    font-size: 55px;
+    font-weight: 700;
+}
+.hero-container p{
+    color: rgb(114, 114, 114);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: center;
+    padding: 15px 0;
+}
+.banner-image img{
+    width: 100%;
+    margin-top: 40px;
+}
+
+/* fetures section styles */
+
+.fetures{
+    padding: 100px 0;
+}
+.feture-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0 50px;
+}
+.feture-left{
+    width: 50%;
+}
+.feture-right{
+    width: 50%;
+}
+.feture-img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.feture-img-container img{
+    width: 100%;
+}
+.feture-left h2 {
+    font-size: 40px;
+    line-height: 55px;
+    font-weight: 700;
+}
+.feture-left p{
+    color: rgb(114, 114, 114);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    padding: 15px 0;
+}
+
+/* teams section */
+
+.teams{
+    padding: 100px 0;
+}
+.teams-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0 50px;
+}
+.teams-left h1{
+    font-size: 45px;
+    padding: 20px 0;
+    position: relative;
+}
+.teams-left h1::after{
+    content: '';
+    position: absolute;
+    top: 23px;
+    left: -20px;
+    width: 6px;
+    height: 70%;
+    border-radius: 7px;
+    background-color: #ff900e;
+}
+.teams-right img{
+    width: 100%;
+}
+.teams-left{
+    width: 40%;
+}
+.teams-right{
+    width: 50%;
+}
+.teams-left p{
+    color: rgb(114, 114, 114);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 15px 0;
+}
+.teams-card{
+    box-shadow: 3px 5px 20px 0 rgba(0, 0, 0, .1);
+    border-radius: 7px;
+    padding: 30px 25px;
+    margin: 20px 0;
+}
+.btn-experence {
+    position: relative;
+    top: -73px;
+    left: -71px;
+    padding: 22px 30px;
+    font-size: 30px;
+    font-weight: 800;
+    background: #ff900e;
+    color: #fff;
+    border-radius: 5px;
+    border: 2px solid #ff900e;
+}
+.small{
+    font-size: 18px;
+}
